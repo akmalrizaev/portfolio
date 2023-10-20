@@ -51,6 +51,10 @@ body {
 }
 
 /* GENERAL SECTION STYLES */
+a {
+  color: var(--color-white);
+  transition: var(--transition);
+}
 section {
   padding: 10rem 0;
   background: var(--color-light);
