@@ -2,7 +2,7 @@ import Card from '../../components/Card';
 import { AiOutlinePlus, AiOutlineMinus } from 'react-icons/ai';
 import { useState } from 'react';
 
-const FAQ = (faq) => {
+const FAQ = ({ faq }) => {
   const [showAnswer, setShowAnswer] = useState(false);
 
   return (
